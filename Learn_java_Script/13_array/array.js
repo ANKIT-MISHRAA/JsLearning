@@ -30,12 +30,35 @@ let arr2 = new Array(1,2,3,4,5)
 
 // console.log(arr2.indexOf(5))
 
-let theArray =  [1,2,4,5,6,6]
+// let theArray =  [1,2,4,5,6,6]
 
-const newArray = theArray.join()
+// const newArray = theArray.join()
 
-console.log(newArray);
-console.log(typeof(newArray))
+// console.log(newArray);
+// console.log(typeof(newArray))
+
+
+// const ArrNew = [1,2,3,4,5,6,7,8,9]
+
+// const arr3 = ArrNew.slice(3,7)
+
+// console.log(ArrNew)
+// console.log(arr3)
+
+// const ArrNew = [1,2,3,4,5,6,7,8,9]
+// const arr4 = ArrNew.splice(3,7) 
+
+// console.log(ArrNew)
+// console.log(arr4)
+
+
+const ArrNew = [1,2,3,4,5,6,7,8,9]
+const arr4 = ArrNew.splice(3,5,10,11,12) 
+
+console.log(ArrNew)
+console.log(arr4)
+
+
 
 
 
