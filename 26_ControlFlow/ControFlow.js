@@ -61,14 +61,22 @@ default:
 //Nulish conlescing Operator (??) null undifined
 
 let val1;
-val1 = 5 ?? 10 
+// val1 = 5 ?? 10 
+// console.log(val1);
+
+// val1 = null ?? 10 
+// console.log(val1);
+
+// val1 = undefined ?? 15
+// console.log(val1);
+
+// val1 = null ?? 10 ?? 15
+// console.log(val1);
 
 
+// turnery operator
 
+// condition ? tru : false
 
-
-
-
-
-
-
+let teaPrice = 100 ;
+(teaPrice > 60) ? console.log("teaPrice is grater than 60") : console.log("teaPrice is grater than 60");
